@@ -6,6 +6,8 @@ public class LN
 	// 명사가 들어간다고 생각해주시면 될듯.
 	// 
 	
+	// 주 : 데미지 X 대미지
+	
 	// #### 담당 파트 ### //
 	/*
 	itemName
@@ -7940,9 +7942,9 @@ public class LN
 		Lang.tip[50] = "사는 가격:";
 		Lang.tip[51] = "가치 없음";
 		Lang.tip[52] = "소모함 ";
-		Lang.tip[53] = " 소환 데미지";
+		Lang.tip[53] = " 소환 대미지";
 		Lang.tip[54] = " 사정거리";
-		Lang.tip[55] = " 데미지";
+		Lang.tip[55] = " 대미지";
 		Lang.tip[56] = "Marked as favorite";
 		Lang.tip[57] = "Quick trash, stacking, and selling will be blocked";
 		Lang.tip[58] = " throwing damage";
@@ -8220,7 +8222,7 @@ public class LN
 		Main.buffTip[121] = "낚시 레벨 증가";
 		Main.buffName[122] = "수중탐지";
 		Main.buffTip[122] = "낚시 바늘에 무엇이 물고 있는지 볼 수 있습니다";
-		Main.buffName[123] = "상자";
+		Main.buffName[123] = "아이템 낚시 확률 증가";
 		Main.buffTip[123] = "상자를 낚아올릴 큰 기회";
 		Main.buffName[124] = "온기";
 		Main.buffTip[124] = "차가운 것으로부터 피해 감소";
@@ -8233,7 +8235,7 @@ public class LN
 		Main.buffName[128] = "토끼 탈 것";
 		Main.buffTip[128] = "당신은 당근을 갈망한다";
 		Main.buffName[129] = "돼지용 탈 것";
-		Main.buffTip[129] = "지금 나보고....";
+		Main.buffTip[129] = "살찌지 않았다 꿀";
 		Main.buffName[130] = "슬라임 탈 것";
 		Main.buffTip[130] = "뿌잉!";
 		Main.buffName[131] = "거북이 탈 것";
@@ -11340,27 +11342,27 @@ public class LN
 		switch (l)
 		{
 			case 0:
-				result += "2 defense";
+				result += "방어 +2";
 			case 1:
-				result += "3 defense";
+				result += "방어 +3";
 			case 2:
-				result += "15% increased movement speed";
+				result += "이동속도 +15%";
 			case 3:
-				result += "Space Gun costs 0 mana";
+				result += "스페이스 건의 마나 소모 없음";
 			case 4:
-				result += "20% chance to not consume ammo";
+				result += "탄을 쓰지 않을 확률 +20%";
 			case 5:
 				result += "16% reduced mana usage";
 			case 6:
-				result += "17% extra melee damage";
+				result += "추가 대미지 +17%";
 			case 7:
-				result += "30% increased mining speed";
+				result += "채광 속도 +30%";
 			case 8:
 				result += "14% reduced mana usage";
 			case 9:
-				result += "15% increased melee speed";
+				result += "공격 속도 +15%";
 			case 10:
-				result += "20% chance to not consume ammo";
+				result += "탄을 쓰지 않을 확률 +20%";
 			case 11:
 				result += "17% reduced mana usage";
 			case 12:
